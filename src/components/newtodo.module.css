@@ -1,0 +1,62 @@
+.form {
+    width: 50%;
+    background-color: #333;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.6rem;
+    border: 2px solid green;
+    margin-bottom: 0.5rem;
+    outline: none;
+    
+  }
+  .form label{
+    color:green;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  input[type=text], textarea[type=text]{
+    outline: none;
+  }
+
+  input[type=text]:focus, textarea[type=text]:focus{
+    border: 2px solid green;
+  }
+
+  .form-field {
+    margin: 1rem 0;
+    display: flex;
+  }
+  .form-field label {
+    flex-basis: 20%;
+  }
+  .form-field input {
+    flex-basis: 80%;
+    border: none;
+    border-radius: 0.6rem;
+    padding: 0.2rem;
+  }
+  .form-field textarea {
+    flex-basis: 80%;
+    resize: none;
+    border: none;
+    border-radius: 0.6rem;
+    padding: 0.2rem;
+  }
+  .form button {
+    border: none;
+    border-radius: 0.6rem;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    font-weight: bold;
+    width: 20%;
+    padding: 8px 10px;
+    background-color: green;
+    color: white;
+  }
+  .form button:hover {
+    background-color: orange;
+    color: white;
+  }
+  
